@@ -21,6 +21,7 @@
 		10B731921858783A00079D6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B731741858783A00079D6C /* UIKit.framework */; };
 		10B7319A1858783A00079D6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10B731981858783A00079D6C /* InfoPlist.strings */; };
 		10B7319C1858783A00079D6C /* EsempioGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B7319B1858783A00079D6C /* EsempioGitTests.m */; };
+		10B731A61858789600079D6C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B731A51858789600079D6C /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		10B731971858783A00079D6C /* EsempioGitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EsempioGitTests-Info.plist"; sourceTree = "<group>"; };
 		10B731991858783A00079D6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		10B7319B1858783A00079D6C /* EsempioGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EsempioGitTests.m; sourceTree = "<group>"; };
+		10B731A51858789600079D6C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			files = (
 				10B731731858783A00079D6C /* CoreGraphics.framework in Frameworks */,
 				10B731751858783A00079D6C /* UIKit.framework in Frameworks */,
+				10B731A61858789600079D6C /* MapKit.framework in Frameworks */,
 				10B731711858783A00079D6C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +104,7 @@
 		10B7316F1858783A00079D6C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				10B731A51858789600079D6C /* MapKit.framework */,
 				10B731701858783A00079D6C /* Foundation.framework */,
 				10B731721858783A00079D6C /* CoreGraphics.framework */,
 				10B731741858783A00079D6C /* UIKit.framework */,
@@ -199,6 +203,13 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Anas Laboratorio 2";
 				TargetAttributes = {
+					10B7316C1858783A00079D6C = {
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					10B7318D1858783A00079D6C = {
 						TestTargetID = 10B7316C1858783A00079D6C;
 					};
